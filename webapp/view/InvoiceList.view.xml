@@ -12,7 +12,7 @@
 				path : 'ShipperName',
 				group : true
 			}
-		}" >
+		}">
         <headerToolbar>
             <Toolbar>
                 <Title text="{i18n>invoiceListTitle}"/>
