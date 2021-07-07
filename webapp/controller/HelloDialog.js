@@ -21,6 +21,9 @@ sap.ui.define([
                 var oFragmentController = {
                     onCloseDialog: function () {
                         oView.byId("helloDialog").close();
+                    },
+                    onClickShowName: function(){
+                        alert("Minh Tú đẹp trai nhất quả đất!");
                     }
                 };
                 // load asynchronous XML fragment
@@ -34,6 +37,7 @@ sap.ui.define([
                     return oDialog;
                 });
             }
+
             this.pDialog.then(function (oDialog) {
                 oDialog.open();
             });

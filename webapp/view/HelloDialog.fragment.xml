@@ -9,9 +9,12 @@
                 src="sap-icon://hello-world"
                 size="8rem"
                 class="sapUiMediumMargin"/>
+            <Button
+                text="Click here to know the truth"
+                press=".onClickShowName"/>
         </content>
         <beginButton>
-         <Button
+        <Button
             text="{i18n>dialogCloseButtonText}"
             press=".onCloseDialog"/>
       </beginButton>
